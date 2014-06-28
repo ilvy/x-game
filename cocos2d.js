@@ -29,7 +29,7 @@
     var c = {
         COCOS2D_DEBUG:2, //0 to turn debug off, 1 for basic debug, and 2 for full debug
         box2d:false,
-        chipmunk:false,
+        chipmunk:true,
         showFPS:true,
         frameRate:60,
         loadExtension:false,
@@ -39,7 +39,9 @@
         //SingleEngineFile:'',
         appFiles:[
             "src/XGameScene.js",
-            "src/resource.js"
+            "src/resource.js",
+            "src/Ball.js",
+            'src/globals.js'
         ]
     };
 
